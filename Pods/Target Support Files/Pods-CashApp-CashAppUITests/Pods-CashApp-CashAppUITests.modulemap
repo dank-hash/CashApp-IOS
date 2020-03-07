@@ -1,0 +1,6 @@
+framework module Pods_CashApp_CashAppUITests {
+  umbrella header "Pods-CashApp-CashAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
