@@ -20,6 +20,9 @@
 		19EA515B2412BB0F00E79B49 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA515A2412BB0F00E79B49 /* UITextField.swift */; };
 		19EA515D2412BB4E00E79B49 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA515C2412BB4E00E79B49 /* AlertDialog.swift */; };
 		19EA515F2412BC9000E79B49 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA515E2412BC9000E79B49 /* HomeController.swift */; };
+		19EA51612413E3EA00E79B49 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA51602413E3EA00E79B49 /* RegisterController.swift */; };
+		19EA51632413FE0E00E79B49 /* AddMonthlyIncomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA51622413FE0E00E79B49 /* AddMonthlyIncomeController.swift */; };
+		19EA5165241402DE00E79B49 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA5164241402DE00E79B49 /* Date.swift */; };
 		5F6A7CEFE7EA5C60C0330DA1 /* Pods_CashAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5221460BDEC9BDD1B190993A /* Pods_CashAppTests.framework */; };
 		6BB3EC14F3C350D58415BBE4 /* Pods_CashApp_CashAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A79C3065403FB691535912 /* Pods_CashApp_CashAppUITests.framework */; };
 		E1C66CE48E908E3E4CD448CB /* Pods_CashApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB747FC4D52FEA4D4A87716B /* Pods_CashApp.framework */; };
@@ -63,6 +66,9 @@
 		19EA515A2412BB0F00E79B49 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		19EA515C2412BB4E00E79B49 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
 		19EA515E2412BC9000E79B49 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		19EA51602413E3EA00E79B49 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		19EA51622413FE0E00E79B49 /* AddMonthlyIncomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonthlyIncomeController.swift; sourceTree = "<group>"; };
+		19EA5164241402DE00E79B49 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		40A6746ADB5A93A5BE6CD89B /* Pods-CashApp-CashAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashApp-CashAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CashApp-CashAppUITests/Pods-CashApp-CashAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43A79C3065403FB691535912 /* Pods_CashApp_CashAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashApp_CashAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5221460BDEC9BDD1B190993A /* Pods_CashAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +169,8 @@
 			children = (
 				19EA51572412B9B300E79B49 /* LoginController.swift */,
 				19EA515E2412BC9000E79B49 /* HomeController.swift */,
+				19EA51602413E3EA00E79B49 /* RegisterController.swift */,
+				19EA51622413FE0E00E79B49 /* AddMonthlyIncomeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -172,6 +180,7 @@
 			children = (
 				19EA515A2412BB0F00E79B49 /* UITextField.swift */,
 				19EA515C2412BB4E00E79B49 /* AlertDialog.swift */,
+				19EA5164241402DE00E79B49 /* Date.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -440,11 +449,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				19EA515D2412BB4E00E79B49 /* AlertDialog.swift in Sources */,
+				19EA5165241402DE00E79B49 /* Date.swift in Sources */,
 				19EA51262412B05200E79B49 /* ViewController.swift in Sources */,
 				19EA515F2412BC9000E79B49 /* HomeController.swift in Sources */,
 				19EA515B2412BB0F00E79B49 /* UITextField.swift in Sources */,
+				19EA51612413E3EA00E79B49 /* RegisterController.swift in Sources */,
 				19EA51582412B9B300E79B49 /* LoginController.swift in Sources */,
 				19EA512C2412B05200E79B49 /* CashApp.xcdatamodeld in Sources */,
+				19EA51632413FE0E00E79B49 /* AddMonthlyIncomeController.swift in Sources */,
 				19EA51242412B05200E79B49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

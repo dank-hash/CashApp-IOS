@@ -17,15 +17,23 @@ class LoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+        addSylesToLogin()
     }
     
+    func addSylesToLogin() {
+        txtEmail.roundCorners([.topLeft,.topRight], radius: 10)
+        txtPassword.roundCorners([.bottomLeft,.bottomRight], radius: 10)
+        txtPassword.setLeftPaddingPoints(8)
+        txtEmail.setLeftPaddingPoints(8)
+        txtEmail.placeholderColor(color: UIColor.black)
+        txtPassword.placeholderColor(color: UIColor.black)
+        
+    }
     
     @IBAction func loginBtnPressed(_ sender: Any) {
         print("Login")
         let alert = AlertDialog();
-        Auth.auth().signIn(withEmail: txtUserName.text!, password: txtPassword.text!) { (user, error) in
+        Auth.auth().signIn(withEmail: txtEmail.text!, password: txtPassword.text!) { (user, error) in
             if error != nil {
                 print(error)
                 alert.showAlert(title: "Error occured", message: "You have error with your email and password", buttonText: "Ok")
